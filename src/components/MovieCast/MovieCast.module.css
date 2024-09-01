@@ -1,0 +1,40 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.listItem {
+  background-color: #435375;
+  border: 1px solid #435375;
+  border-radius: 8px;
+  margin: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  width: 100px;
+  text-align: center;
+  transition: transform 0.2s;
+  position: relative;
+}
+
+.listItem:hover {
+  transform: scale(1.05);
+}
+
+.itemText {
+  font-size: 12px;
+  margin: 10px 0;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.span {
+  font-weight: normal;
+  color: #6f9bd1;
+}
